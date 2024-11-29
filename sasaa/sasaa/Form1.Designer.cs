@@ -57,10 +57,10 @@ namespace sasaa
 			// 
 			// label2
 			// 
-			this.label2.Font = new System.Drawing.Font("Perpetua Titling MT", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label2.Font = new System.Drawing.Font("Perpetua Titling MT", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label2.Location = new System.Drawing.Point(33, 81);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(801, 82);
+			this.label2.Size = new System.Drawing.Size(801, 75);
 			this.label2.TabIndex = 1;
 			this.label2.Text = "Aquí veremos una estasdistica de los accidentes que han ocurrido con el paso de l" +
 			"os años desde el 2021, teniendo en cuenta que es el año donde empezo a haber más" +
