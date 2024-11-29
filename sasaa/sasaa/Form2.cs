@@ -14,7 +14,7 @@ namespace sasaa
 {
 	/// <summary>
 	/// Description of Form2.
-	/// </summary> 
+	/// </summary>    
 	public partial class Form2 : Form
 	{
 		public Form2()
