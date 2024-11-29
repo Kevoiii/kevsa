@@ -1,0 +1,7 @@
+C:\Users\J Sarai\kevsa\sasaa\sasaa\bin\Debug\sasaa.exe
+C:\Users\J Sarai\kevsa\sasaa\sasaa\bin\Debug\sasaa.pdb
+C:\Users\J Sarai\kevsa\sasaa\sasaa\obj\Debug\sasaa.csprojResolveAssemblyReference.cache
+C:\Users\J Sarai\kevsa\sasaa\sasaa\obj\Debug\sasaa.exe
+C:\Users\J Sarai\kevsa\sasaa\sasaa\obj\Debug\sasaa.pdb
+C:\Users\J Sarai\kevsa\sasaa\sasaa\obj\Debug\sasaa.Form1.resources
+C:\Users\J Sarai\kevsa\sasaa\sasaa\obj\Debug\sasaa.csproj.GenerateResource.Cache
