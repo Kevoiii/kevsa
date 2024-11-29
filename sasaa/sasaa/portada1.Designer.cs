@@ -36,17 +36,73 @@ namespace sasaa
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(portada1));
+			this.label1 = new System.Windows.Forms.Label();
+			this.label2 = new System.Windows.Forms.Label();
+			this.label3 = new System.Windows.Forms.Label();
+			this.button1 = new System.Windows.Forms.Button();
 			this.SuspendLayout();
+			// 
+			// label1
+			// 
+			this.label1.Font = new System.Drawing.Font("Perpetua Titling MT", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label1.ForeColor = System.Drawing.Color.Purple;
+			this.label1.Location = new System.Drawing.Point(168, 9);
+			this.label1.Name = "label1";
+			this.label1.Size = new System.Drawing.Size(365, 67);
+			this.label1.TabIndex = 6;
+			this.label1.Text = "INTRODUCCION\r\n";
+			// 
+			// label2
+			// 
+			this.label2.Font = new System.Drawing.Font("Perpetua Titling MT", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label2.Location = new System.Drawing.Point(12, 52);
+			this.label2.Name = "label2";
+			this.label2.Size = new System.Drawing.Size(664, 253);
+			this.label2.TabIndex = 7;
+			this.label2.Text = resources.GetString("label2.Text");
+			this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label3
+			// 
+			this.label3.Font = new System.Drawing.Font("Perpetua Titling MT", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label3.Location = new System.Drawing.Point(12, 291);
+			this.label3.Name = "label3";
+			this.label3.Size = new System.Drawing.Size(664, 82);
+			this.label3.TabIndex = 8;
+			this.label3.Text = "Por eso, en el CBTIS217 estamos realizando el proyecto PAEC sobre el uso inadecua" +
+			"do de las motocicletas y el como prevenirlo.";
+			this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+			// 
+			// button1
+			// 
+			this.button1.BackColor = System.Drawing.Color.Thistle;
+			this.button1.Font = new System.Drawing.Font("Perpetua Titling MT", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button1.ForeColor = System.Drawing.Color.Black;
+			this.button1.Location = new System.Drawing.Point(250, 399);
+			this.button1.Name = "button1";
+			this.button1.Size = new System.Drawing.Size(203, 48);
+			this.button1.TabIndex = 10;
+			this.button1.Text = "Siguente";
+			this.button1.UseVisualStyleBackColor = false;
 			// 
 			// portada1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-			this.ClientSize = new System.Drawing.Size(688, 423);
+			this.ClientSize = new System.Drawing.Size(688, 466);
+			this.Controls.Add(this.button1);
+			this.Controls.Add(this.label3);
+			this.Controls.Add(this.label2);
+			this.Controls.Add(this.label1);
 			this.Name = "portada1";
 			this.Text = "portada1";
 			this.ResumeLayout(false);
 		}
+		private System.Windows.Forms.Button button1;
+		private System.Windows.Forms.Label label3;
+		private System.Windows.Forms.Label label2;
+		private System.Windows.Forms.Label label1;
 	}
 }

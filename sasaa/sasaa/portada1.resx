@@ -117,4 +117,8 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Desde 2021, Uriangato ha registrado un notable aumento en los accidentes de motocicleta, atribuído uso de este medio de transporte, la falta de conciencia vial y el incumplimiento de medidas de seguridad. Esta problemática no solo afecta a la integridad de los conductores sino a la comunidad en general, evidenciando la necesidad urgente de acciones para reducir los riesgos y promover una concucción responsable.
+</value>
+  </data>
 </root>
