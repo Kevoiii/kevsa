@@ -28,5 +28,21 @@ namespace sasaa
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+		void BtnvolverClick(object sender, EventArgs e)
+		{
+			Form1 form1= new Form1();
+			this.Hide();
+			form1.ShowDialog();
+			this.Close();
+		}
+		
+		void BtnsiguienteClick(object sender, EventArgs e)
+		{
+			Form3 form3= new Form3();
+			this.Hide();
+			form3.ShowDialog();
+			this.Close();
+		}
 	}
 }
