@@ -40,8 +40,8 @@ namespace sasaa
 			this.label1 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
-			this.button2 = new System.Windows.Forms.Button();
-			this.button1 = new System.Windows.Forms.Button();
+			this.btnvolver = new System.Windows.Forms.Button();
+			this.btnsiguiente = new System.Windows.Forms.Button();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
 			// 
@@ -76,27 +76,29 @@ namespace sasaa
 			this.pictureBox1.TabIndex = 17;
 			this.pictureBox1.TabStop = false;
 			// 
-			// button2
+			// btnvolver
 			// 
-			this.button2.BackColor = System.Drawing.Color.Thistle;
-			this.button2.Font = new System.Drawing.Font("Perpetua Titling MT", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button2.Location = new System.Drawing.Point(12, 490);
-			this.button2.Name = "button2";
-			this.button2.Size = new System.Drawing.Size(75, 23);
-			this.button2.TabIndex = 16;
-			this.button2.Text = "<";
-			this.button2.UseVisualStyleBackColor = false;
+			this.btnvolver.BackColor = System.Drawing.Color.Thistle;
+			this.btnvolver.Font = new System.Drawing.Font("Perpetua Titling MT", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnvolver.Location = new System.Drawing.Point(12, 490);
+			this.btnvolver.Name = "btnvolver";
+			this.btnvolver.Size = new System.Drawing.Size(75, 23);
+			this.btnvolver.TabIndex = 16;
+			this.btnvolver.Text = "<";
+			this.btnvolver.UseVisualStyleBackColor = false;
+			this.btnvolver.Click += new System.EventHandler(this.BtnvolverClick);
 			// 
-			// button1
+			// btnsiguiente
 			// 
-			this.button1.BackColor = System.Drawing.Color.Thistle;
-			this.button1.Font = new System.Drawing.Font("Perpetua Titling MT", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button1.Location = new System.Drawing.Point(772, 490);
-			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(75, 23);
-			this.button1.TabIndex = 15;
-			this.button1.Text = ">";
-			this.button1.UseVisualStyleBackColor = false;
+			this.btnsiguiente.BackColor = System.Drawing.Color.Thistle;
+			this.btnsiguiente.Font = new System.Drawing.Font("Perpetua Titling MT", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnsiguiente.Location = new System.Drawing.Point(772, 490);
+			this.btnsiguiente.Name = "btnsiguiente";
+			this.btnsiguiente.Size = new System.Drawing.Size(75, 23);
+			this.btnsiguiente.TabIndex = 15;
+			this.btnsiguiente.Text = ">";
+			this.btnsiguiente.UseVisualStyleBackColor = false;
+			this.btnsiguiente.Click += new System.EventHandler(this.BtnsiguienteClick);
 			// 
 			// Form1
 			// 
@@ -105,8 +107,8 @@ namespace sasaa
 			this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
 			this.ClientSize = new System.Drawing.Size(860, 523);
 			this.Controls.Add(this.pictureBox1);
-			this.Controls.Add(this.button2);
-			this.Controls.Add(this.button1);
+			this.Controls.Add(this.btnvolver);
+			this.Controls.Add(this.btnsiguiente);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
 			this.Name = "Form1";
@@ -114,8 +116,8 @@ namespace sasaa
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.ResumeLayout(false);
 		}
-		private System.Windows.Forms.Button button1;
-		private System.Windows.Forms.Button button2;
+		private System.Windows.Forms.Button btnsiguiente;
+		private System.Windows.Forms.Button btnvolver;
 		private System.Windows.Forms.PictureBox pictureBox1;
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Label label1;
