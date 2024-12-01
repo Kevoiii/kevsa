@@ -16,3 +16,5 @@ C:\Users\J Sarai\kevsa\sasaa\sasaa\obj\Debug\sasaa.exe
 C:\Users\J Sarai\kevsa\sasaa\sasaa\obj\Debug\sasaa.pdb
 C:\Users\J Sarai\kevsa\sasaa\sasaa\obj\Debug\sasaa.Form1.resources
 C:\Users\J Sarai\kevsa\sasaa\sasaa\obj\Debug\sasaa.Form2.resources
+C:\Users\J Sarai\kevsa\sasaa\sasaa\obj\Debug\sasaa.Form3.resources
+C:\Users\J Sarai\kevsa\sasaa\sasaa\obj\Debug\sasaa.Form4.resources

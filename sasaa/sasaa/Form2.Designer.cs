@@ -50,9 +50,9 @@ namespace sasaa
 			// pictureBox2
 			// 
 			this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-			this.pictureBox2.Location = new System.Drawing.Point(542, 292);
+			this.pictureBox2.Location = new System.Drawing.Point(518, 247);
 			this.pictureBox2.Name = "pictureBox2";
-			this.pictureBox2.Size = new System.Drawing.Size(321, 172);
+			this.pictureBox2.Size = new System.Drawing.Size(348, 195);
 			this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.pictureBox2.TabIndex = 33;
 			this.pictureBox2.TabStop = false;
@@ -61,19 +61,18 @@ namespace sasaa
 			// 
 			this.label1.Font = new System.Drawing.Font("Perpetua Titling MT", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-			this.label1.Location = new System.Drawing.Point(542, 17);
+			this.label1.Location = new System.Drawing.Point(518, 17);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(321, 257);
+			this.label1.Size = new System.Drawing.Size(345, 227);
 			this.label1.TabIndex = 32;
-			this.label1.Text = "Aquí se puede observar que la mayoria que conduce una motocicleta no a tenido un " +
-			"curso de manejo, lo cual es ";
+			this.label1.Text = resources.GetString("label1.Text");
 			// 
 			// pictureBox1
 			// 
 			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-			this.pictureBox1.Location = new System.Drawing.Point(31, 292);
+			this.pictureBox1.Location = new System.Drawing.Point(31, 247);
 			this.pictureBox1.Name = "pictureBox1";
-			this.pictureBox1.Size = new System.Drawing.Size(321, 172);
+			this.pictureBox1.Size = new System.Drawing.Size(348, 195);
 			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.pictureBox1.TabIndex = 31;
 			this.pictureBox1.TabStop = false;
@@ -108,7 +107,7 @@ namespace sasaa
 			this.label2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
 			this.label2.Location = new System.Drawing.Point(31, 17);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(321, 257);
+			this.label2.Size = new System.Drawing.Size(348, 227);
 			this.label2.TabIndex = 28;
 			this.label2.Text = "en esta encuesta podemos ver que la mayoria de los que contestaron la encuesta sa" +
 			"ben las medidas de precaución al manejar, pero siendo honestos aunque sepan cual" +

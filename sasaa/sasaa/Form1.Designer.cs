@@ -72,7 +72,7 @@ namespace sasaa
 			// pictureBox1
 			// 
 			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-			this.pictureBox1.Location = new System.Drawing.Point(142, 204);
+			this.pictureBox1.Location = new System.Drawing.Point(141, 183);
 			this.pictureBox1.Name = "pictureBox1";
 			this.pictureBox1.Size = new System.Drawing.Size(599, 259);
 			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -88,7 +88,7 @@ namespace sasaa
 			this.label2.TabIndex = 26;
 			this.label2.Text = "Aquí veremos una estasdistica de los accidentes que han ocurrido con el paso de l" +
 			"os años desde el 2021, teniendo en cuenta que es el año donde empezo a haber más" +
-			" accidentes.\r\n";
+			" accidentes de motocicletas.\r\n";
 			// 
 			// label1
 			// 
