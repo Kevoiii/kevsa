@@ -62,7 +62,7 @@ namespace sasaa
 			// pictureBox2
 			// 
 			this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-			this.pictureBox2.Location = new System.Drawing.Point(374, 112);
+			this.pictureBox2.Location = new System.Drawing.Point(357, 132);
 			this.pictureBox2.Name = "pictureBox2";
 			this.pictureBox2.Size = new System.Drawing.Size(294, 169);
 			this.pictureBox2.TabIndex = 8;
@@ -71,7 +71,7 @@ namespace sasaa
 			// pictureBox1
 			// 
 			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-			this.pictureBox1.Location = new System.Drawing.Point(-5, 112);
+			this.pictureBox1.Location = new System.Drawing.Point(12, 132);
 			this.pictureBox1.Name = "pictureBox1";
 			this.pictureBox1.Size = new System.Drawing.Size(299, 169);
 			this.pictureBox1.TabIndex = 7;
@@ -80,19 +80,19 @@ namespace sasaa
 			// label2
 			// 
 			this.label2.Font = new System.Drawing.Font("Perpetua Titling MT", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label2.Location = new System.Drawing.Point(192, 57);
+			this.label2.Location = new System.Drawing.Point(189, 66);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(346, 67);
+			this.label2.Size = new System.Drawing.Size(276, 52);
 			this.label2.TabIndex = 6;
-			this.label2.Text = "El uso de las motos en \r\n         Uriangato";
+			this.label2.Text = "El uso de las motos en \r\n           Uriangato";
 			// 
 			// label1
 			// 
-			this.label1.Font = new System.Drawing.Font("Perpetua Titling MT", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label1.Font = new System.Drawing.Font("Perpetua Titling MT", 33F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label1.ForeColor = System.Drawing.Color.Purple;
-			this.label1.Location = new System.Drawing.Point(159, 10);
+			this.label1.Location = new System.Drawing.Point(120, 9);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(365, 67);
+			this.label1.Size = new System.Drawing.Size(421, 47);
 			this.label1.TabIndex = 5;
 			this.label1.Text = "PROYECTO PAEC\r\n";
 			// 

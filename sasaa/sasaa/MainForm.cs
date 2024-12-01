@@ -34,7 +34,7 @@ namespace sasaa
 		{
 			portada1 main = new portada1();
 			this.Hide();
-				main.ShowDialog();
+			main.ShowDialog();
 			this.Close();			
 		}
 	}

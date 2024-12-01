@@ -40,7 +40,7 @@ namespace sasaa
 			this.label1 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
 			this.label3 = new System.Windows.Forms.Label();
-			this.button1 = new System.Windows.Forms.Button();
+			this.btnsiguiente = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// label1
@@ -74,17 +74,18 @@ namespace sasaa
 			"do de las motocicletas y el como prevenirlo.";
 			this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
 			// 
-			// button1
+			// btnsiguiente
 			// 
-			this.button1.BackColor = System.Drawing.Color.Thistle;
-			this.button1.Font = new System.Drawing.Font("Perpetua Titling MT", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button1.ForeColor = System.Drawing.Color.Black;
-			this.button1.Location = new System.Drawing.Point(250, 399);
-			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(203, 48);
-			this.button1.TabIndex = 10;
-			this.button1.Text = "Siguente";
-			this.button1.UseVisualStyleBackColor = false;
+			this.btnsiguiente.BackColor = System.Drawing.Color.Thistle;
+			this.btnsiguiente.Font = new System.Drawing.Font("Perpetua Titling MT", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnsiguiente.ForeColor = System.Drawing.Color.Black;
+			this.btnsiguiente.Location = new System.Drawing.Point(250, 399);
+			this.btnsiguiente.Name = "btnsiguiente";
+			this.btnsiguiente.Size = new System.Drawing.Size(203, 48);
+			this.btnsiguiente.TabIndex = 10;
+			this.btnsiguiente.Text = "Siguente";
+			this.btnsiguiente.UseVisualStyleBackColor = false;
+			this.btnsiguiente.Click += new System.EventHandler(this.BtnsiguienteClick);
 			// 
 			// portada1
 			// 
@@ -92,7 +93,7 @@ namespace sasaa
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
 			this.ClientSize = new System.Drawing.Size(688, 466);
-			this.Controls.Add(this.button1);
+			this.Controls.Add(this.btnsiguiente);
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
@@ -100,7 +101,7 @@ namespace sasaa
 			this.Text = "portada1";
 			this.ResumeLayout(false);
 		}
-		private System.Windows.Forms.Button button1;
+		private System.Windows.Forms.Button btnsiguiente;
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Label label1;
