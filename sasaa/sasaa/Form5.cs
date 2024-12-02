@@ -9,6 +9,7 @@
 using System;
 using System.Drawing;
 using System.Windows.Forms;
+using System.Diagnostics;
  
 namespace sasaa
 {
@@ -27,6 +28,30 @@ namespace sasaa
 			//
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
+		}
+		void PictureBox1Click(object sender, EventArgs e)
+		{
+			Process.Start("https://www.youtube.com/watch?v=CEBcd6ToHJk");
+		}
+		void PictureBox2Click(object sender, EventArgs e)
+		{
+			Process.Start("https://www.youtube.com/watch?v=8P3lTxmjA-w");
+		}
+		void PictureBox3Click(object sender, EventArgs e)
+		{
+			Process.Start("https://www.youtube.com/watch?v=Qv-x5wKQQLQ");
+		}
+		void PictureBox4Click(object sender, EventArgs e)
+		{
+			
+			Process.Start("https://www.youtube.com/watch?v=ZbN5bsNQBGk");
+		}
+		void BtnvolverClick(object sender, EventArgs e)
+		{
+			Form4 mn = new Form4();
+			this.Hide();
+			mn.ShowDialog();
+			this.Close();
 		}
 	}
 }

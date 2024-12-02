@@ -48,7 +48,7 @@ namespace sasaa
 			// btnvolver
 			// 
 			this.btnvolver.BackColor = System.Drawing.Color.Thistle;
-			this.btnvolver.Font = new System.Drawing.Font("Perpetua Titling MT", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnvolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnvolver.Location = new System.Drawing.Point(23, 465);
 			this.btnvolver.Name = "btnvolver";
 			this.btnvolver.Size = new System.Drawing.Size(75, 23);
@@ -60,7 +60,7 @@ namespace sasaa
 			// btnsiguiente
 			// 
 			this.btnsiguiente.BackColor = System.Drawing.Color.Thistle;
-			this.btnsiguiente.Font = new System.Drawing.Font("Perpetua Titling MT", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnsiguiente.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnsiguiente.Location = new System.Drawing.Point(783, 465);
 			this.btnsiguiente.Name = "btnsiguiente";
 			this.btnsiguiente.Size = new System.Drawing.Size(75, 23);
@@ -81,24 +81,24 @@ namespace sasaa
 			// 
 			// label2
 			// 
-			this.label2.Font = new System.Drawing.Font("Perpetua Titling MT", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label2.Location = new System.Drawing.Point(43, 96);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(801, 75);
 			this.label2.TabIndex = 26;
 			this.label2.Text = "Aquí veremos una estasdistica de los accidentes que han ocurrido con el paso de l" +
-			"os años desde el 2021, teniendo en cuenta que es el año donde empezo a haber más" +
-			" accidentes de motocicletas.\r\n";
+	"os años desde el 2021, teniendo en cuenta que es el año donde empezo a haber más" +
+	" accidentes de motocicletas.\r\n";
 			// 
 			// label1
 			// 
-			this.label1.Font = new System.Drawing.Font("Perpetua Titling MT", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label1.ForeColor = System.Drawing.Color.Purple;
 			this.label1.Location = new System.Drawing.Point(294, 38);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(280, 44);
 			this.label1.TabIndex = 25;
-			this.label1.Text = "estadisticas";
+			this.label1.Text = "Estadísticas";
 			// 
 			// Form1
 			// 
@@ -115,6 +115,7 @@ namespace sasaa
 			this.Text = "Form1";
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.ResumeLayout(false);
+
 		}
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Label label2;
