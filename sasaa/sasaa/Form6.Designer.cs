@@ -49,9 +49,9 @@ namespace sasaa
 			// 
 			// label1
 			// 
-			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label1.Font = new System.Drawing.Font("Perpetua Titling MT", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label1.ForeColor = System.Drawing.Color.Purple;
-			this.label1.Location = new System.Drawing.Point(299, 9);
+			this.label1.Location = new System.Drawing.Point(265, 9);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(280, 44);
 			this.label1.TabIndex = 26;
@@ -59,18 +59,18 @@ namespace sasaa
 			// 
 			// label2
 			// 
-			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label2.Location = new System.Drawing.Point(47, 87);
+			this.label2.Font = new System.Drawing.Font("Perpetua Titling MT", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label2.Location = new System.Drawing.Point(30, 55);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(728, 292);
+			this.label2.Size = new System.Drawing.Size(787, 367);
 			this.label2.TabIndex = 27;
 			this.label2.Text = resources.GetString("label2.Text");
 			// 
 			// btnvolver
 			// 
 			this.btnvolver.BackColor = System.Drawing.Color.Thistle;
-			this.btnvolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnvolver.Location = new System.Drawing.Point(12, 399);
+			this.btnvolver.Font = new System.Drawing.Font("Perpetua Titling MT", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnvolver.Location = new System.Drawing.Point(12, 439);
 			this.btnvolver.Name = "btnvolver";
 			this.btnvolver.Size = new System.Drawing.Size(75, 23);
 			this.btnvolver.TabIndex = 36;
@@ -81,8 +81,8 @@ namespace sasaa
 			// btnsiguiente
 			// 
 			this.btnsiguiente.BackColor = System.Drawing.Color.Thistle;
-			this.btnsiguiente.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnsiguiente.Location = new System.Drawing.Point(723, 399);
+			this.btnsiguiente.Font = new System.Drawing.Font("Perpetua Titling MT", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnsiguiente.Location = new System.Drawing.Point(742, 439);
 			this.btnsiguiente.Name = "btnsiguiente";
 			this.btnsiguiente.Size = new System.Drawing.Size(75, 23);
 			this.btnsiguiente.TabIndex = 37;
@@ -94,7 +94,7 @@ namespace sasaa
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(829, 454);
+			this.ClientSize = new System.Drawing.Size(829, 474);
 			this.Controls.Add(this.btnsiguiente);
 			this.Controls.Add(this.btnvolver);
 			this.Controls.Add(this.label2);
@@ -102,7 +102,6 @@ namespace sasaa
 			this.Name = "Form6";
 			this.Text = "Form6";
 			this.ResumeLayout(false);
-
 		}
 	}
 }

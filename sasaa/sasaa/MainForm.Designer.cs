@@ -53,9 +53,9 @@ namespace sasaa
 			// button1
 			// 
 			this.button1.BackColor = System.Drawing.Color.Thistle;
-			this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button1.Font = new System.Drawing.Font("Perpetua Titling MT", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.button1.ForeColor = System.Drawing.Color.Black;
-			this.button1.Location = new System.Drawing.Point(12, 427);
+			this.button1.Location = new System.Drawing.Point(448, 427);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(203, 48);
 			this.button1.TabIndex = 9;
@@ -66,24 +66,26 @@ namespace sasaa
 			// pictureBox2
 			// 
 			this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-			this.pictureBox2.Location = new System.Drawing.Point(357, 132);
+			this.pictureBox2.Location = new System.Drawing.Point(334, 131);
 			this.pictureBox2.Name = "pictureBox2";
-			this.pictureBox2.Size = new System.Drawing.Size(294, 169);
+			this.pictureBox2.Size = new System.Drawing.Size(317, 169);
+			this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.pictureBox2.TabIndex = 8;
 			this.pictureBox2.TabStop = false;
 			// 
 			// pictureBox1
 			// 
 			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-			this.pictureBox1.Location = new System.Drawing.Point(352, 307);
+			this.pictureBox1.Location = new System.Drawing.Point(12, 131);
 			this.pictureBox1.Name = "pictureBox1";
 			this.pictureBox1.Size = new System.Drawing.Size(299, 169);
+			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.pictureBox1.TabIndex = 7;
 			this.pictureBox1.TabStop = false;
 			// 
 			// label2
 			// 
-			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label2.Font = new System.Drawing.Font("Perpetua Titling MT", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label2.Location = new System.Drawing.Point(201, 66);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(276, 52);
@@ -92,7 +94,7 @@ namespace sasaa
 			// 
 			// label1
 			// 
-			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 33F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label1.Font = new System.Drawing.Font("Perpetua Titling MT", 33F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label1.ForeColor = System.Drawing.Color.Purple;
 			this.label1.Location = new System.Drawing.Point(120, 9);
 			this.label1.Name = "label1";
@@ -102,28 +104,29 @@ namespace sasaa
 			// 
 			// label3
 			// 
-			this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label3.Location = new System.Drawing.Point(3, 132);
+			this.label3.Font = new System.Drawing.Font("Perpetua Titling MT", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label3.Location = new System.Drawing.Point(312, 325);
 			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(348, 52);
+			this.label3.Size = new System.Drawing.Size(339, 61);
 			this.label3.TabIndex = 10;
-			this.label3.Text = "Jessica Sarai Morales Alarcón\r\nKevin Daniel Pérez Vázquez";
+			this.label3.Text = "Elavorado por: \r\n- Jessica Sarai Morales Alarcón\r\n- Kevin Daniel Pérez Vázquez";
 			// 
 			// label4
 			// 
-			this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label4.Location = new System.Drawing.Point(3, 201);
+			this.label4.Font = new System.Drawing.Font("Perpetua Titling MT", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label4.Location = new System.Drawing.Point(312, 395);
 			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(348, 52);
+			this.label4.Size = new System.Drawing.Size(339, 29);
 			this.label4.TabIndex = 11;
-			this.label4.Text = "Maestra: Vaca Zavala Beatríz";
+			this.label4.Text = "Maestra: L.I. Beatriz Vaca Zavala";
 			// 
 			// pictureBox3
 			// 
 			this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-			this.pictureBox3.Location = new System.Drawing.Point(12, 252);
+			this.pictureBox3.Location = new System.Drawing.Point(12, 306);
 			this.pictureBox3.Name = "pictureBox3";
-			this.pictureBox3.Size = new System.Drawing.Size(294, 169);
+			this.pictureBox3.Size = new System.Drawing.Size(299, 169);
+			this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.pictureBox3.TabIndex = 12;
 			this.pictureBox3.TabStop = false;
 			// 
@@ -147,7 +150,6 @@ namespace sasaa
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
 			this.ResumeLayout(false);
-
 		}
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Label label2;
