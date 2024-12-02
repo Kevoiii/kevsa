@@ -40,6 +40,7 @@ namespace sasaa
 		{
 			this.label1 = new System.Windows.Forms.Label();
 			this.btnvolver = new System.Windows.Forms.Button();
+			this.btninicio = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// label1
@@ -64,16 +65,30 @@ namespace sasaa
 			this.btnvolver.UseVisualStyleBackColor = false;
 			this.btnvolver.Click += new System.EventHandler(this.BtnvolverClick);
 			// 
+			// btninicio
+			// 
+			this.btninicio.BackColor = System.Drawing.Color.Thistle;
+			this.btninicio.Font = new System.Drawing.Font("Perpetua Titling MT", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btninicio.Location = new System.Drawing.Point(599, 224);
+			this.btninicio.Name = "btninicio";
+			this.btninicio.Size = new System.Drawing.Size(75, 23);
+			this.btninicio.TabIndex = 38;
+			this.btninicio.Text = "Inicio";
+			this.btninicio.UseVisualStyleBackColor = false;
+			this.btninicio.Click += new System.EventHandler(this.BtninicioClick);
+			// 
 			// Form7
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(686, 279);
+			this.Controls.Add(this.btninicio);
 			this.Controls.Add(this.btnvolver);
 			this.Controls.Add(this.label1);
 			this.Name = "Form7";
 			this.Text = "Form7";
 			this.ResumeLayout(false);
 		}
+		private System.Windows.Forms.Button btninicio;
 	}
 }
