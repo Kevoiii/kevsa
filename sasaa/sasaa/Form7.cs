@@ -35,5 +35,13 @@ namespace sasaa
 			mn.ShowDialog();
 			this.Close();
 		}
+		
+		void BtninicioClick(object sender, EventArgs e)
+		{
+			MainForm ini = new MainForm();
+			this.Hide();
+			ini.ShowDialog();
+			this.Close();
+		}
 	}
 }
