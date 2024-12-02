@@ -53,5 +53,12 @@ namespace sasaa
 			mn.ShowDialog();
 			this.Close();
 		}
+		void BtnsiguienteClick(object sender, EventArgs e)
+		{
+			Form6 mn = new Form6();
+			this.Hide();
+			mn.ShowDialog();
+			this.Close();
+		}
 	}
 }

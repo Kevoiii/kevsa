@@ -181,6 +181,7 @@ namespace sasaa
 			this.btnsiguiente.TabIndex = 36;
 			this.btnsiguiente.Text = ">";
 			this.btnsiguiente.UseVisualStyleBackColor = false;
+			this.btnsiguiente.Click += new System.EventHandler(this.BtnsiguienteClick);
 			// 
 			// Form5
 			// 
