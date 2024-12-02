@@ -35,9 +35,5 @@ namespace sasaa
 			mn.ShowDialog();
 			this.Close();
 		}
-		void Label1Click(object sender, EventArgs e)
-		{
-	
-		}
 	}
 }

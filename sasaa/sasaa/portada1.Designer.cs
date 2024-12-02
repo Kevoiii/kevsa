@@ -58,7 +58,7 @@ namespace sasaa
 			this.label2.Font = new System.Drawing.Font("Perpetua Titling MT", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label2.Location = new System.Drawing.Point(12, 52);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(664, 253);
+			this.label2.Size = new System.Drawing.Size(664, 239);
 			this.label2.TabIndex = 7;
 			this.label2.Text = resources.GetString("label2.Text");
 			this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

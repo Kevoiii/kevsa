@@ -33,3 +33,6 @@ C:\Users\Usuario\kevsa\sasaa\sasaa\obj\Debug\sasaa.pdb
 C:\Users\Usuario\kevsa\sasaa\sasaa\obj\Debug\sasaa.Form5.resources
 C:\Users\Usuario\kevsa\sasaa\sasaa\obj\Debug\sasaa.Form6.resources
 C:\Users\Usuario\kevsa\sasaa\sasaa\obj\Debug\sasaa.Form7.resources
+C:\Users\J Sarai\kevsa\sasaa\sasaa\obj\Debug\sasaa.Form5.resources
+C:\Users\J Sarai\kevsa\sasaa\sasaa\obj\Debug\sasaa.Form6.resources
+C:\Users\J Sarai\kevsa\sasaa\sasaa\obj\Debug\sasaa.Form7.resources

@@ -44,19 +44,18 @@ namespace sasaa
 			// 
 			// label1
 			// 
-			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label1.Font = new System.Drawing.Font("Perpetua Titling MT", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label1.ForeColor = System.Drawing.Color.Purple;
-			this.label1.Location = new System.Drawing.Point(146, 39);
+			this.label1.Location = new System.Drawing.Point(72, 32);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(427, 175);
+			this.label1.Size = new System.Drawing.Size(535, 158);
 			this.label1.TabIndex = 27;
 			this.label1.Text = "Gracias por\r\nsu atención";
-			this.label1.Click += new System.EventHandler(this.Label1Click);
 			// 
 			// btnvolver
 			// 
 			this.btnvolver.BackColor = System.Drawing.Color.Thistle;
-			this.btnvolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnvolver.Font = new System.Drawing.Font("Perpetua Titling MT", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnvolver.Location = new System.Drawing.Point(12, 224);
 			this.btnvolver.Name = "btnvolver";
 			this.btnvolver.Size = new System.Drawing.Size(75, 23);
@@ -75,7 +74,6 @@ namespace sasaa
 			this.Name = "Form7";
 			this.Text = "Form7";
 			this.ResumeLayout(false);
-
 		}
 	}
 }
